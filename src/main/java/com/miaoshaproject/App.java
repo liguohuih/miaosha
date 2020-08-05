@@ -27,7 +27,7 @@ public class App
     public String home(){
         UserDO userDo = userDOMapper.selectByPrimaryKey(1);
         if (userDo == null){
-            return "用户不存在";
+            return "用户对象不存在";
         }else {
             return userDo.getName();
         }
