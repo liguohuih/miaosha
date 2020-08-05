@@ -1,0 +1,4 @@
+# miaosha
+controller>>service>>dao
+dataobject负责数据储存到service的传输，并且在用户的service的服务里面组装了对应需要的核心领域模型model做下一步的处理
+controller做了到userVO的之间的扣传，保证了UI只使用到他需要的字段即可
