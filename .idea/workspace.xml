@@ -42,9 +42,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/viewObject/UserVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="344">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
+                <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
@@ -435,7 +436,7 @@
       <workItem from="1595743097894" duration="4786000" />
       <workItem from="1596459251127" duration="189000" />
       <workItem from="1596461883414" duration="8433000" />
-      <workItem from="1596551253016" duration="11119000" />
+      <workItem from="1596551253016" duration="11428000" />
     </task>
     <task id="LOCAL-00001" summary="miaosha配置">
       <created>1596556590871</created>
@@ -458,14 +459,22 @@
       <option name="project" value="LOCAL" />
       <updated>1596642467942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="miaosha配置">
+      <created>1596642668382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596642668382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24527000" />
+    <option name="totallyTimeSpent" value="24836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -713,9 +722,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/viewObject/UserVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="344">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
+            <element signature="e#271#272#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
