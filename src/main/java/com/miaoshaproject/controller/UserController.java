@@ -6,12 +6,15 @@ import com.miaoshaproject.error.EmBusinessError;
 import com.miaoshaproject.response.CommonReturnType;
 import com.miaoshaproject.service.UserService;
 import com.miaoshaproject.service.model.UserModel;
+import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author：wantong
@@ -20,7 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller("user") //通过这个注解，用来被spring扫描到
 @RequestMapping("/user") //通过/user被访问到
-public class UserController {
+public class UserController extends BaseController{
 
     @Autowired
     private UserService userService;
@@ -50,4 +53,5 @@ public class UserController {
         BeanUtils.copyProperties(userModel,userVO);
         return userVO;
     }
+
 }

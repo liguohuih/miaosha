@@ -1,4 +1,9 @@
-# miaosha
+####miaosha
 controller>>service>>dao
 dataobject负责数据储存到service的传输，并且在用户的service的服务里面组装了对应需要的核心领域模型model做下一步的处理
 controller做了到userVO的之间的扣传，保证了UI只使用到他需要的字段即可
+
+####第三天
+定义了一个commonReturnType能够用对应的status+data返回所有的json的序列化的方式的固定的对象，给前端解析使用
+定义了一个BusinessException+EmBusinessError的方式统一管理错误码
+定义了一个BaseController，在这个基类里面定义个exceptionhandler解决未被controller层吸收的exception，使用了errcode+errmsg的统一的方式

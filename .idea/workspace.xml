@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3b692d-3116-412d-906b-9a49c50e2ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/CommonError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/response/CommonReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="168">
+              <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,14 +34,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/response/CommonReturnType.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="51" />
               <folding>
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,21 +63,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,9 +111,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/response/CommonReturnType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/CommonError.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/BusinessException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,7 +187,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="miaoshaproject" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
@@ -314,7 +309,7 @@
       <workItem from="1596459251127" duration="189000" />
       <workItem from="1596461883414" duration="8433000" />
       <workItem from="1596551253016" duration="13739000" />
-      <workItem from="1597067286480" duration="5131000" />
+      <workItem from="1597067286480" duration="8675000" />
     </task>
     <task id="LOCAL-00001" summary="miaosha配置">
       <created>1596556590871</created>
@@ -351,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596642946869</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增加通用返回对象(正确、错误、异常)">
+      <created>1597072645135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597072645135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32278000" />
+    <option name="totallyTimeSpent" value="35822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +452,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="miaosha配置" />
     <MESSAGE value="秒杀项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="秒杀项目" />
+    <MESSAGE value="新增加通用返回对象(正确、错误、异常)" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增加通用返回对象(正确、错误、异常)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/miaoshaproject/AppTest.java" />
@@ -555,16 +558,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -709,8 +702,8 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="136">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
@@ -725,23 +718,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/CommonError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="61">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="e#201#202#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/CommonError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -758,13 +751,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
